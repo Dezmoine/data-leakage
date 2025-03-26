@@ -30,7 +30,7 @@ def create_sample_positions(data_dir, data_splits, map_names):
     scenes_positions = {map_name: {} for map_name in map_names}
 
     nusc = NuScenes(
-                version="v1.0-trainval",
+                version="v1.0-mini",
                 dataroot=data_dir,
             )
     nusc_test = NuScenes(
@@ -45,7 +45,7 @@ def create_sample_positions(data_dir, data_splits, map_names):
 
 def create_scene_to_location(data_dir):
     nusc = NuScenes(
-                version="v1.0-trainval",
+                version="v1.0-mini",
                 dataroot=data_dir,
             )
     nusc_test = NuScenes(
