@@ -34,7 +34,7 @@ def create_sample_positions(data_dir, data_splits, map_names):
                 dataroot=data_dir,
             )
     nusc_test = NuScenes(
-                version="v1.0-test",
+                version="v1.0-mini",
                 dataroot=data_dir,
             )
 
@@ -49,7 +49,7 @@ def create_scene_to_location(data_dir):
                 dataroot=data_dir,
             )
     nusc_test = NuScenes(
-                version="v1.0-test",
+                version="v1.0-mini",
                 dataroot=data_dir,
             )
 
