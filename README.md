@@ -85,7 +85,7 @@ Create Argoverse 2 splits:
 python src/argoverse2/generate_geo_split.py --data_dir /path/to/argoverse2
 ```
 
-## Generate original pkl files using the method of your choice
+## Generate original pkl files using the method of your choice  
 Generate the necessary dataset pkls following the instructions in the respective repositories:
 - MapTR: https://github.com/hustvl/MapTR/tree/main
 - MapTRv2: https://github.com/hustvl/MapTR/tree/maptrv2
